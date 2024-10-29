@@ -2,7 +2,7 @@
 author : maria
 date : 29/10/2024
 version : 1.1
-This is a python program to count number of vowel counts in a string.
+This is a python program to count number of vowel and consonant counts in a string.
 """
 
 
