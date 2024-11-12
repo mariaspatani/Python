@@ -1,0 +1,11 @@
+"""
+Author : Maria
+Date :12/11/2024
+Version : 1.1
+This is a python program that prints all the number from 0 to 6 except 3 and 5
+"""
+
+
+for num in range(0,7):
+    if num !=3 and num!=5:
+        print(num,end=" ")
