@@ -1,0 +1,11 @@
+"""
+Author : Maria
+Date   : 12/11/2024
+Version: 1.1
+This is a python program to find those numbers which are divisible by 7 and 5 between the numbers 1500 and 2700
+"""
+
+
+for number in range (1500,2700):
+     if number%5==0 and number%7==0:
+         print(number)
