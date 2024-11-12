@@ -1,0 +1,8 @@
+"""
+Author : Maria
+Date :12/11/2024
+Version : 1.1
+This is a python program that accepts a word from user and reverses it.
+"""
+name= input("Enter a name")
+print(name[ : :-1])
