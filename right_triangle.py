@@ -24,4 +24,4 @@ side3=int(input("enter side3"))
 if is_right_angle_triangle(side1,side2,side3):
     print("The Triangle is a right angled triangle")
 else:
-    print("The Triangle is not a right angled triangle3")
+    print("The Triangle is not a right angled triangle")
