@@ -1,18 +1,22 @@
 """
-Author: Maria
-Date: 2/12/2024
+Author:Maria
+Date:3/12/2024
 Version:1.1
-This is a python program to find fibonacci numbers
+This is  a python program to generate fibonacci number.
 """
-N=int(input("Enter a number"))
-number1=0
-number2=1
-count=0
-print(number1,end=" ")
-print(number2,end=" ")
-while count<N:
-    result =number1+number2
-    print(result,end=" ")
-    number1=number2
-    number2=result
-    count=count+1
+def generate_fibonacci(n):
+    number1=1
+    number2=0
+    number3=0
+
+    count=0
+    while count<n:
+        print(number3, end=" ")
+        number3=number1+number2
+
+        number1= number2
+        number2=number3
+        count+=1
+
+(generate_fibonacci(10))
+
