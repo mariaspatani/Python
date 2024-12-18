@@ -1,0 +1,10 @@
+"""
+Author :Maria
+Date:18/12/2024
+Version:1.1
+Python program to find how many times a specific value appears in  a list
+"""
+
+list=[1,2,3,2,4,2]
+value =2
+print(list.count(value))
