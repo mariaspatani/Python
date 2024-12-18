@@ -1,0 +1,14 @@
+"""
+Author :Maria
+Date:18/12/2024
+Version:1.1
+Python Program to reverse a string using recursion
+"""
+def reverse_string(str):
+         if len(str)==0:
+               return str
+         else:
+               return reverse_string(str[1:])+str[0]
+str= "Python Programming"
+result = reverse_string(str)
+print(result)
